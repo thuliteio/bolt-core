@@ -1,0 +1,33 @@
+{
+  "name": "@hyas/bolt-core",
+  "version": "1.0.0",
+  "description": "Bolt core",
+  "author": "Hyas",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/gethyas/bolt-core.git"
+  },
+  "scripts": {
+    "clean": "npm run clean:lint && npm run clean:install",
+    "clean:install": "shx rm -rf package-lock.json node_modules",
+    "clean:lint": "shx rm -rf .eslintcache .stylelintcache",
+    "lint": "npm run lint:scripts && npm run lint:styles",
+    "lint:scripts": "eslint --cache assets/js",
+    "lint:styles": "stylelint --cache \"assets/scss/**/*.{css,sass,scss}\"",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "version": "auto-changelog -p && git add CHANGELOG.md"
+  },
+  "dependencies": {
+    "@hyas/images": "^1.0.2",
+    "@hyas/seo": "^1.0.3",
+    "boltcss": "^0.5.1",
+    "gethyas": "^2.1.0"
+  },
+  "devDependencies": {
+    "auto-changelog": "^2.4.0"
+  },
+  "engines": {
+    "node": ">=16.12.0"
+  }
+}
