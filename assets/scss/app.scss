@@ -1,6 +1,9 @@
 /** Import theme variables */
 @import "common/variables";
 
+/** Include any default variable overrides here */
+@import "common/variables-custom";
+
 /** Import boltcss */
 @import "boltcss/bolt";
 
@@ -17,3 +20,6 @@
 @import "layouts/header";
 @import "layouts/pages";
 @import "layouts/posts";
+
+/** Include custom styles */
+@import "common/custom";
