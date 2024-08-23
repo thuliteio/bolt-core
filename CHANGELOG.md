@@ -1,5 +1,11 @@
 # @thulite/bolt-core
 
+## 1.4.0
+
+### Minor Changes
+
+- [#7](https://github.com/thuliteio/bolt-core/pull/7) [`10fcd61`](https://github.com/thuliteio/bolt-core/commit/10fcd61909f41590f518b021fc6a418eb0f8ac08) Thanks [@h-enk](https://github.com/h-enk)! - Update for migration from Hyas to Thulite
+
 ## 1.3.0
 
 ### Minor Changes
