@@ -6,4 +6,4 @@ Official Bolt core integration for the Bolt theme.
 
 See the Bolt documentation:
 
-- [Bolt](https://docs.gethyas.com/guides/integrations/bolt-core/)
+- [Bolt](https://docs.thulite.io/guides/integrations/bolt-core/)
