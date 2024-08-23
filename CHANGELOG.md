@@ -1,4 +1,4 @@
-# @hyas/bolt-core
+# @thulite/bolt-core
 
 ## 1.3.0
 
