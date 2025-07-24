@@ -3,7 +3,7 @@
   <h2>Related</h2>
   <ul>
     {{ range . -}}
-      <li><a href="{{.Permalink}}">{{.Date.Format "2006-01-02"}} | {{.Title}}</a></li>
+      <li><a href="{{ .RelPermalink }}">{{ .Date.Format "2006-01-02" }} | {{ .LinkTitle }}</a></li>
     {{ end -}}
   </ul>
 </section>
