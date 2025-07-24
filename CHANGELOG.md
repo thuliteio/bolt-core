@@ -1,5 +1,11 @@
 # @thulite/bolt-core
 
+## 1.5.0
+
+### Minor Changes
+
+- [#8](https://github.com/thuliteio/bolt-core/pull/8) [`8f1b2ae`](https://github.com/thuliteio/bolt-core/commit/8f1b2ae7056aaac410aa783d37feac8a037d15e0) Thanks [@h-enk](https://github.com/h-enk)! - Update for new template system in Hugo v0.146.0
+
 ## 1.4.0
 
 ### Minor Changes
