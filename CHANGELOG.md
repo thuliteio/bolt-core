@@ -1,5 +1,11 @@
 # @thulite/bolt-core
 
+## 1.5.1
+
+### Patch Changes
+
+- [#10](https://github.com/thuliteio/bolt-core/pull/10) [`4585f7f`](https://github.com/thuliteio/bolt-core/commit/4585f7f1f68d7797af9d817dd0e1d27cfd505c08) Thanks [@h-enk](https://github.com/h-enk)! - Bump dependencies to their latest versions
+
 ## 1.5.0
 
 ### Minor Changes
