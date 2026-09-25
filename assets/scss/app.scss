@@ -1,25 +1,30 @@
 /** Import theme variables */
-@import "common/variables";
+@use "common/variables";
 
 /** Include any default variable overrides here */
-@import "common/variables-custom";
+@use "common/variables-custom";
 
 /** Import boltcss */
-@import "boltcss/bolt";
+@use "boltcss/bolt";
 
 /** Import theme styles */
-@import "common/global";
-@import "common/mode";
-@import "common/typography";
-@import "components/buttons";
-@import "components/code";
-@import "components/images";
-@import "components/media";
-@import "components/tables";
-@import "layouts/footer";
-@import "layouts/header";
-@import "layouts/pages";
-@import "layouts/posts";
+@use "common/global";
+@use "common/mode";
+@use "common/typography";
+@use "components/buttons";
+@use "components/code";
+@use "components/images";
+@use "components/media";
+@use "components/tables";
+@use "layouts/footer";
+@use "layouts/header";
+@use "layouts/pages";
+@use "layouts/posts";
 
 /** Include custom styles */
-@import "common/custom";
+@use "common/custom";
+
+// Development indicator
+// .home {
+//   border: 3px dashed aquamarine;
+// }

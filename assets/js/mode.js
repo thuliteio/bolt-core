@@ -19,7 +19,7 @@ if (window.CSS && CSS.supports('color', 'var(--primary)')) {
 
   var toggleColorButtons = document.querySelectorAll('.data-color-mode__btn'); // Set up event listeners
 
-  toggleColorButtons.forEach(function(btn) {
+  toggleColorButtons.forEach(function (btn) {
     btn.addEventListener('click', toggleColorMode);
   });
 } else {
